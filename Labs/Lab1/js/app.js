@@ -1,10 +1,10 @@
 function setup() {
     
-    var red="d62943";
+    var red = "#d62943";
 
-    var blue="0bcee8";
+    var blue = "#0bcee8";
 
-    var mustard="edda87";
+    var mustard = "#edda87";
     
     createCanvas(800,600);
 
