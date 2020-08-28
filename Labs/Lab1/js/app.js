@@ -3,10 +3,12 @@ function setup() {
     var red="d62943";
 
     var blue="0bcee8";
+
+    var mustard="edda87";
     
     createCanvas(800,600);
 
-    background(237, 218, 135);
+    background(mustard);
 
     stroke(217, 135, 237);
     strokeWeight(10);
