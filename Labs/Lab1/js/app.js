@@ -7,7 +7,7 @@ function setup() {
     var mustard = "#edda87";
     
     createCanvas(800,600);
-
+    noStroke();
     background(mustard);
     
     stroke(217, 135, 237);
