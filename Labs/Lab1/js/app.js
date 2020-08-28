@@ -5,6 +5,8 @@ function setup() {
     var blue = "#0bcee8";
 
     var mustard = "#edda87";
+
+    var startX = 50;
     
     createCanvas(800,600);
     noStroke();
@@ -13,12 +15,12 @@ function setup() {
     stroke(217, 135, 237);
     strokeWeight(10);
     fill(blue);
-    rect(400, 300, 300, 50);
+    rect(startX, 300, 300, 50);
     
     stroke(217, 135, 237);
     strokeWeight(10);
     fill(red);
-    circle(200, 100, 30);
+    circle(startX, 100, 30);
     
     
     stroke(5);
