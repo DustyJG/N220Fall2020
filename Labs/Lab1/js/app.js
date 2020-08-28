@@ -13,15 +13,15 @@ function setup() {
     stroke(217, 135, 237);
     strokeWeight(10);
     fill(blue);
-    rect(300, 300, 300, 50);
+    rect(400, 300, 300, 50);
     
     stroke(217, 135, 237);
     strokeWeight(10);
     fill(red);
-    circle(100, 100, 30);
+    circle(200, 100, 30);
     
     
     stroke(5);
-    line(0, 500, 300, 20);
+    line(50, 500, 300, 20);
     
 }
