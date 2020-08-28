@@ -6,20 +6,20 @@ function setup() {
     
     createCanvas(800,600);
     noStroke();
-    background(237, 218, 135);
+    background(237, 220, 135);
     
     stroke(217, 135, 237);
-    strokeWeight(10);
+    strokeWeight(5);
     fill(11, 206, 232);
     rect(startX, 300, 300, 50);
     
     stroke(217, 135, 237);
-    strokeWeight(10);
+    strokeWeight(5);
     fill(red);
     circle(startX, 100, 30);
     
     
-    stroke(5);
+    stroke(10);
     line(100, 50, 300, 20);
     
 }
