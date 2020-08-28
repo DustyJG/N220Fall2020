@@ -1,8 +1,8 @@
 function setup() {
     
-    var blue="214, 41, 67";
+    var red="#d62943";
 
-    var red="111, 208, 232";
+    var blue="#0bcee8";
     
     createCanvas(800,600);
 
