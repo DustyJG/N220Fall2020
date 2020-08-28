@@ -20,6 +20,6 @@ function setup() {
     
     
     stroke(5);
-    line(50, 500, 300, 20);
+    line(150, 500, 300, 20);
     
 }
