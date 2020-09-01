@@ -1,5 +1,7 @@
-let spices = 0;
+function setup() {
+    createCanvas(800, 600)
+}
 function draw() {
-    spices = spices + 1;
-    console.log (spices);   
+    xpos++;
+    circle(xPos, 200, 30);
 }
