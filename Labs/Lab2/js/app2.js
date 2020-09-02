@@ -1,5 +1,5 @@
 let xPos = 0;
-let yPos = 40;
+let yPos = 0;
 
 let xSpeed = 2;
 let ySpeed = 0;
