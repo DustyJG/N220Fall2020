@@ -6,10 +6,11 @@ function setup() {
 }
 
 function draw() {
+    background(green)
     xPos++;
     circle(xPos, 200, 30)
-    fill(blue)
-    if( xPos > 164) {
-        fill (red)
+    fill(blue);
+    if( xPos > 164 ) {
+        fill (red);
     }
 }
