@@ -18,6 +18,7 @@ function draw() {
     } else {
         fill (30, 30, 200);
     }
-
+function mouseMoved(mouseX, mouseY, 5, 5);
         circle(xPos, yPos, 30);
+        return false;
 }
