@@ -1,7 +1,7 @@
 let xPos = 0;
 let yPos = 0;
 
-let xSpeed = 2;
+let xSpeed = 0;
 let ySpeed = 0;
 
 function setup() {
