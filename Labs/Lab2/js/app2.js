@@ -1,8 +1,8 @@
-let xPos = 0;
-let yPos = 0;
+let xPos = 1;
+let yPos = 1;
 
-let xSpeed = 0;
-let ySpeed = 0;
+let xSpeed = 1;
+let ySpeed = 1;
 
 function setup() {
     createCanvas(400, 300);
