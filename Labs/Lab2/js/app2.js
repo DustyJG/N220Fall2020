@@ -9,14 +9,14 @@ function setup() {
 }
 
 function draw() {
-    background(0, 255, 0)
+    background(30, 200, 30)
     xPos = xPos + xSpeed;
     yPos = yPos + ySpeed;
 
-    fill(0, 0, 255);
+    fill(30, 30, 200);
 
     if( xPos > 164 ) {
-        fill (255, 0, 0);
+        fill (200, 30, 30);
     }
 
         circle(xPos, yPos, 30);
