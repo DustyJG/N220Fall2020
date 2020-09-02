@@ -15,7 +15,7 @@ function draw() {
 
     if( xPos > 165 ) {
         fill (200, 30, 30);
-    }   else {
+    } else {
         fill (30, 30, 200);
     }
 
