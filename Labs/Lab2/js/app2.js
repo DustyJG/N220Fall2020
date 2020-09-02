@@ -10,13 +10,15 @@ function setup() {
 
 function draw() {
     background(green)
-
     xPos = xPos + xSpeed;
     yPos = yPos + ySpeed;
+
     
-    circle(xPos, 200, 30)
     fill(blue);
+
     if( xPos > 164 ) {
         fill (red);
     }
+    
+        circle(xPos, yPos, 30);
 }
