@@ -13,10 +13,10 @@ function draw() {
     xPos = xPos + xSpeed;
     yPos = yPos + ySpeed;
 
-    fill(30, 30, 200);
-
     if( xPos > 165 ) {
         fill (200, 30, 30);
+    }   else {
+        fill (30, 30, 200);
     }
 
         circle(xPos, yPos, 30);
