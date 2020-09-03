@@ -10,5 +10,5 @@ function draw() {
   circle(0, 200, 30);
 }
 if (xPos => 800) {
-  let xPos = 0;
+  let (xPos = 0);
 }
