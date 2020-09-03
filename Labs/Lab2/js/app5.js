@@ -14,7 +14,7 @@ startX = startX + 1;
 
 circle(xPos, yPos, startX);
 
-if( startX > 400 ) {
+if( startX = 200 ) {
     startX = 0;
-    
+
 }
