@@ -9,7 +9,7 @@ function draw() {
   background(255)
   xPos = xPos + xSpeed;
 
-  if( xPos > 795 ) {
+  if( xPos > 800 ) {
     xPos = 0;
   }
 
