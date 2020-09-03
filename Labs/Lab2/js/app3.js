@@ -9,7 +9,7 @@ function draw() {
   background(255)
   xPos = xPos + xSpeed;
 
-  var myBool = xPos
+  var myBool = xPos > 795;
   console.log(xPos, myBool);
 
   circle(xPos, 200, 30);
