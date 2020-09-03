@@ -7,5 +7,5 @@ function setup() {
 
 function draw() {
   xPos = xPos + xSpeed;
-  circle(0, 200, 30); 
+  circle(xPos, 200, 30); 
 }
