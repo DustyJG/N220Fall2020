@@ -1,24 +1,23 @@
 let xPos = 0;
 let yPos = 0;
 
-let xSpeed = 0;
-let ySpeed = 0;
-
 function setup() {
     createCanvas(400, 300);
 }
-
 function draw() {
     background(30, 200, 30)
-    xPos = xPos + xSpeed;
-    yPos = yPos + ySpeed;
+}
 
-    if( xPos > 165 ) {
-        fill (200, 30, 30);
-    } else {
-        fill (30, 30, 200);
-    }
-function mouseMoved(mouseX, mouseY, 5, 5);
-        circle(xPos, yPos, 30);
-        return false;
+let value = 0;
+function draw() {
+  fill(value);
+}
+
+circle(xPos, yPos, 30,);
+
+function mouseMoved() {
+  value = value + 1;
+  if (value > 255) {
+    value = 0;
+  }
 }
