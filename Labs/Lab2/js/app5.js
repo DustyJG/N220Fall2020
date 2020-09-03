@@ -10,7 +10,7 @@ function setup() {
 function draw() {
     background(255)
 
-startX++;
+startX = startX + 1;
 
 if( startX = 200 ) {
     startX = 0;
