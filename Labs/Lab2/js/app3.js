@@ -6,9 +6,9 @@ function setup() {
 }
 
 function draw() {
-  noStroke
  xPos = xPos + xSpeed;
   circle(0, 200, 30);
+  noStroke();
 }
 if (xPos >= 800) {
   else {
