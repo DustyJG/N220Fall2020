@@ -1,7 +1,7 @@
 let xPos = 400;
 let yPos = 300;
 let xSpeed = 1;
-var startX = 0;
+let startX = 0;
 
 function setup() {
     createCanvas(800, 600);
