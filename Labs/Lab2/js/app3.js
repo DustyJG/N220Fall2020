@@ -10,5 +10,5 @@ function draw() {
 
 function draw() {
   xPos++;
-  circle(xPos, 400, 30);
+  circle(xPos, 200, 30);
 }
