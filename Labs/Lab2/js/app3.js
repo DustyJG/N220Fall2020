@@ -8,7 +8,6 @@ function setup() {
 function draw() {
   background(30, 200, 30);
  xPos = xPos + xSpeed;
-  noStroke();
   circle(0, 200, 30);
   
 }
