@@ -9,3 +9,6 @@ function draw() {
  xPos = xPos + xSpeed;
   circle(0, 200, 30);
 }
+if (xPos => 800) {
+  let xPos = 0;
+}
