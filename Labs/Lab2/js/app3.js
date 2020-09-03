@@ -5,6 +5,6 @@ function setup() {
 }
 
 function draw() {
-  xPos + 5;
+ xPos = xPos + 5;
   circle(xPos, 200, 30);
 }
