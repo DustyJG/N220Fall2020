@@ -6,12 +6,7 @@ function setup() {
 }
 
 function draw() {
-  background(30, 200, 30);
- xPos = xPos + xSpeed;
+  xPos = xPos + xSpeed;
   circle(0, 200, 30);
   
-}
-if (xPos >= 800) {
-  else {
-    (xPos = 0);
 }
