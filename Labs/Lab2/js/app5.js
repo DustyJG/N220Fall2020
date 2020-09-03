@@ -10,11 +10,10 @@ function setup() {
 function draw() {
     background(255)
 
-startX = startX + 1;
+startX++;
 
 circle(xPos, yPos, startX);
 
 if( startX = 200 ) {
     startX = 0;
-
 }
