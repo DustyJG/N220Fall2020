@@ -14,6 +14,7 @@ startX = startX + 1;
 
 if( startX = 200 ) {
     startX = 0;
+}
 
 circle(xPos, yPos, startX);
 }
