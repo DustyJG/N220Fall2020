@@ -10,7 +10,7 @@ function draw() {
   xPos = xPos + xSpeed;
 
   if( xPos > 795 ) {
-    let xPos = 0;
+    xPos = 0;
   }
 
   circle(xPos, 200, 30);
