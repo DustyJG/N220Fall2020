@@ -6,6 +6,7 @@ function setup() {
 }
 
 function draw() {
+  background(255);
   xPos = xPos + xSpeed;
-  circle(xPos, 200, 30); 
+  circle(xPos, 200, 30);
 }
