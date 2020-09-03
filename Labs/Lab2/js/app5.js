@@ -12,8 +12,8 @@ function draw() {
 
 startX = startX +1;
 
-if( xPos > 800 ) {
-    xPos = 0;
+if( startX > 400 ) {
+    startX = 0;
 
 circle(xPos, yPos, startX);
 }
