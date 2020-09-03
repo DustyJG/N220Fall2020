@@ -1,5 +1,5 @@
 let xPos = 0;
-let xSpeed =5;
+let xSpeed = 5;
 
 function setup() {
     createCanvas(800, 600);
