@@ -18,10 +18,5 @@ function setup() {
     }
 }
 
-function draw() {
-
-    //noFill();
-}
-
 
 
