@@ -12,7 +12,7 @@ function setup() {
     var color = Math.random();
     console.log(color);
 
-    stroke(255 - (*15));
+    stroke(255 - (i*15));
 
     circle(200, 150, i * 10);
 }
