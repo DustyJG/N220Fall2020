@@ -1,4 +1,5 @@
-let carProducers = [ "Subaru", "Chevy", "Ford", "Honda", "Studebaker"];
+let carProducers = [ "Subaru", "Honda", "Studebaker", "Chevy", "Acura" ];
 
-
-console.log (carProducers);
+for(var i = 0; i < carProducers.length; i++) {
+    console.log( "I won a " + carProducers[i]);
+}
