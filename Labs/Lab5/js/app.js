@@ -11,9 +11,9 @@
     <p>Fall 2020</p>
 
     <h2> Lab4</h2>
-    <p><a href="index1.html">1 - Neapolitan</a></p>
-    <p><a href="index2.html">2 - Dripping Water</a></p>
-    <p><a href="index3.html">4 - Snake</a></p>
+    <p><a href="index1.html">1 - Stoplight</a></p>
+    <p><a href="index2.html">2 -Bounce Off Rectangle</a></p>
+    <p><a href="index3.html">4 - Personal Composition</a></p>
 
 </body>
 </html>
