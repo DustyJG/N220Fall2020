@@ -1,16 +1,26 @@
 let xPositions = [];
-function setup() {
-	createCanvas(400,300);
-	fill(255, 12, 129);
+let yPositions = [];
+
+function setup() {
+	createCanvas(800,600);
+	fill(255, 0, 0);
 }
 
 function draw() {
 	background(0);
 	if(xPositions.length > 10) {
 		xPositions.shift();
-	}
-	xPositions.push(mouseX);
-	for(var i = 0; i < xPositions.length; i++) {
-		circle(xPositions[i],10, i*5);
-	}
+    }
+    
+    if(yPositions.length > 10) {
+		yPositions.shift();
+    }
+    
+    xPositions.push(mouseX);
+    yPositions.push(mouseY);
+
+    for(var i = 0; i < xPositions.length; i++)
+    for(var i = 0; i < yPositions.length; i++) {
+		circle(xPositions[i], yPositions[i], i*5);
+    }
 }
