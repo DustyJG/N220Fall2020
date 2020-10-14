@@ -11,15 +11,19 @@ let green = "#00ff00"
 
 let colors = [green, yellow, red]
 
+let z = [ { color: green, 
+            yPos: 100},
+          { color: yellow, 
+            yPos: 300},
+          { color: red, 
+            yPos: 500} ] ;
+
 function setup() {
     createCanvas(800, 600);
     background(200);
 
-    for (var i = 0; i < colors.length; i++) {
-        fill(colors[i]);
-    }
-
-    for (var yPos = 100; yPos < 510; yPos = yPos + 200) {   
-        circle(xPos, yPos, radius);
+for ( var i = 0; i < colors.length; i++){
+        fill(z[i].color);
+        circle(xPos, z[i].yPos, radius);
     }
 }
