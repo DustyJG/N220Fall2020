@@ -1,7 +1,7 @@
 let score = 0;
 
-let canvas = {	width: window.innerWidth - 50,
-				height: window.innerHeight - 50
+let canvas = {	width: window.innerWidth - 16,
+				height: window.innerHeight - 16
 };
 
 let paddle = {  width: canvas.height / 40,
